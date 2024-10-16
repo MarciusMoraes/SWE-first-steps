@@ -11,6 +11,7 @@ function Login() {
         </View>
 
         <View>
+            <Text style={styles.topTextInput}>Fazer Login</Text>
             <View style={styles.containerInput}>
                 <TextInput placeholder="E-mail" style={styles.input} />
             </View>

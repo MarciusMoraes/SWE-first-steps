@@ -5,30 +5,30 @@ export const styles = {
         backgroundColor: COLORS.white,
         flex: 1,
         padding: 50,
-        justifyContent: "space-between"
+        justifyContent: "space-arround",
     },
     containerLogo: {
-        alignItems: "center"
+        alignItems: "center",
+        marginTop: 100,
+        marginBottom: 60
     },
     logo: {
-        width: 100,
-        height: 23
+        width: "85%",
+        height: 100
+    },
+    topTextInput: {
+        color: COLORS.purple,
+        fontSize: 22,
+        fontWeight: "bold",
+        marginLeft: 10
     },
     containerInput: {
-        marginBottom: 15
+        
     },
     input: {
         backgroundColor: COLORS.gray5,
         padding: 10,
-        borderRadius: 6
+        elevation: 2
     },
-    footer: {
-        alignItems: "center",
-        justifyContent: "center",
-        flexDirection: "row"
-    },
-    footerLink: {
-        color: COLORS.blue
-    }
 
 }

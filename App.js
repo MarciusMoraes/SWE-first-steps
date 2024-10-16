@@ -4,7 +4,7 @@ import Account from "./src/screens/account/account.jsx";
 function App() {
 
   return <>
-    <Login/>
+    <Account/>
   </>;
 }
 

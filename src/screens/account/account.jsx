@@ -11,9 +11,7 @@ function Account() {
         </View>
 
         <View>
-            <View style={styles.containerInput}>
-                <TextInput placeholder="Nome" style={styles.input} />
-            </View>
+            <Text style={styles.topTextInput}>Criar Conta</Text>
             <View style={styles.containerInput}>
                 <TextInput placeholder="E-mail" style={styles.input} />
             </View>
@@ -22,19 +20,16 @@ function Account() {
                     style={styles.input}
                     secureTextEntry={true} />
             </View>
-            <Button text="Criar Conta" />
-        </View>
-
-        <View style={styles.footer}>
-            <Text>Já tenho conta. </Text>
-            <TouchableOpacity>
-                <Text style={styles.footerLink}>
-                    Fazer login.
-                </Text>
-            </TouchableOpacity>
+            <View style={styles.containerInput}>
+                <TextInput placeholder="Confirmar Senha"
+                    style={styles.input}
+                    secureTextEntry={true} />
+            </View>
+            <Button text="Cadastrar" />
         </View>
 
     </View>
 }
+
 
 export default Account;
