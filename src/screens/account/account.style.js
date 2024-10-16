@@ -23,12 +23,18 @@ export const styles = {
         marginLeft: 10
     },
     containerInput: {
-        
     },
     input: {
-        backgroundColor: COLORS.gray5,
+        marginTop: 5,
         padding: 10,
-        elevation: 2
+        elevation: 2,
+        borderRadius: 3,
+        shadowColor: COLORS.gray1,
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
     },
-
+    registerBtn: {
+        marginTop: 10,
+    }
 }
