@@ -16,4 +16,4 @@ function Button(props) {
     </View>
 }
 
-export default Button;
+export default Button;     
