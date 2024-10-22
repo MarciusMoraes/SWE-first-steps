@@ -4,7 +4,7 @@ const COLORS = {
     green: "DBC554",
     gray1: "#A9A8A9",
     white: "FFFFFF",
-    black: "000000"
+    black: "000000",
 };
 
 const FONT_SIZE = {

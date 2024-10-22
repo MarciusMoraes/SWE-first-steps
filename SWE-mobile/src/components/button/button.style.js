@@ -14,7 +14,7 @@ export const styles = {
         backgroundColor: COLORS.purple,
         borderRadius: 6,
         padding: 12,
-        marginTop: 5,
+        marginTop: 10,
         shadowColor: '#000', // Cor da sombra
         shadowOffset: { width: 0, height: 2 }, // Deslocamento da sombra
         shadowOpacity: 0.3, // Opacidade da sombra

@@ -27,9 +27,18 @@ export const styles = {
         marginBottom: 0,
     },
     input: {
-        backgroundColor: COLORS.gray5,
+        width: '100%',
+        marginTop: 5,
         padding: 10,
-        elevation: 1
+        elevation: 10, // Para Android
+        borderRadius: 10, // Ajuste para o valor desejado
+        backgroundColor: "#FFFFFF",
+        shadowColor: COLORS.black,
+        shadowOffset: { width: 3, height: 2 },
+        shadowOpacity: 1,
+        shadowRadius: 4,
+        borderWidth: 1, // Se desejar borda visível
+        borderColor: '#ccc', // Cor da borda
     },
     footer: {
         alignItems: "center",

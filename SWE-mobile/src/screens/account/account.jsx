@@ -25,9 +25,8 @@ function Account() {
                     style={styles.input}
                     secureTextEntry={true} />
             </View>
-            <View style={styles.registerBtn}>
-                <Button text="Cadastrar" />
-            </View>
+            <Button text="Cadastrar" />
+            
         </View>
 
     </View>

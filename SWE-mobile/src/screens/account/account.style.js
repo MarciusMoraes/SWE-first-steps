@@ -23,18 +23,35 @@ export const styles = {
         marginLeft: 10
     },
     containerInput: {
+        padding: 2
     },
     input: {
+        width: '100%',
         marginTop: 5,
         padding: 10,
-        elevation: 2,
+        elevation: 10, // Para Android
+        borderRadius: 10, // Ajuste para o valor desejado
+        backgroundColor: "#FFFFFF",
+        shadowColor: "#A9A8A9",
+        shadowOffset: { width: 1, height: 2 },
+        shadowOpacity: 1,
+        shadowRadius: 4,
+        borderWidth: 1, // Se desejar borda visível
+        borderColor: '#ccc', // Cor da borda
+    },
+    
+}
+
+
+
+
+/*
+marginTop: 5,
+        padding: 10,
+        elevation: 3,
         borderRadius: 3,
-        shadowColor: COLORS.gray1,
+        shadowColor: COLORS.black,
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.3,
         shadowRadius: 4,
-    },
-    registerBtn: {
-        marginTop: 10,
-    }
-}
+*/
